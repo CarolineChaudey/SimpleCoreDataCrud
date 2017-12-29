@@ -23,6 +23,8 @@ pod 'SimpleCoreDataCrud'
 ## Author
 
 CarolineChaudey, caroline.chaudey.sio@gmail.com
+Hervé Coignard
+Filip Jabin
 
 ## License
 

@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Generates crud methods and elements for a CoreData entity without relationship
+Generates crud methods and elements for a CoreData entity without relationship.
+Made for a school project.
                        DESC
 
   s.homepage         = 'https://github.com/CarolineChaudey/SimpleCoreDataCrud'
