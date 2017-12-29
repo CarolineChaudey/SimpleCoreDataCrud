@@ -1,0 +1,22 @@
+{
+  "name": "SimpleCoreDataCrud",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleCoreDataCrud.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CarolineChaudey/SimpleCoreDataCrud",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CarolineChaudey": "caroline.chaudey.sio@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/CarolineChaudey/SimpleCoreDataCrud.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SimpleCoreDataCrud/Classes/**/*"
+}

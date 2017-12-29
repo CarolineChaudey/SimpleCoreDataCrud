@@ -1,0 +1,6 @@
+framework module SimpleCoreDataCrud {
+  umbrella header "SimpleCoreDataCrud-umbrella.h"
+
+  export *
+  module * { export * }
+}
