@@ -22,11 +22,11 @@
 		78B4215B90F230BD257117FD9498058F /* Pods-SimpleCoreDataCrud_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3153D418422129E3B4E511CDEFFC72E1 /* Pods-SimpleCoreDataCrud_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78EE070AD5980CD7D929686D02C3B062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
+		8287D5E220013FAD00766DF3 /* EntityCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8287D5E020013FAD00766DF3 /* EntityCreationViewController.swift */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A45554DA260A921000F403092223F97 /* SimpleCoreDataCrud-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D7A4FD5EA2AD44B9E5103E920E3086 /* SimpleCoreDataCrud-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A05412185297C28D3D11FAE487D3E524 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD935849DB2ACD033DE02CCC85CC34 /* ReplaceMe.swift */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		AD962179F55944E818458B5BD5B07C34 /* SimpleCoreDataCrud-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067F3F01D0B54B43EEC0745F4723C46 /* SimpleCoreDataCrud-dummy.m */; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
@@ -66,38 +66,39 @@
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		166F28198D282D8FAECAD5FC15CD7B4E /* SimpleCoreDataCrud-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleCoreDataCrud-prefix.pch"; sourceTree = "<group>"; };
 		261D6668264C2F1C65F3974C17582D45 /* Pods-SimpleCoreDataCrud_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleCoreDataCrud_Tests-dummy.m"; sourceTree = "<group>"; };
-		26F2C4990147561F929110F0699E658B /* SimpleCoreDataCrud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleCoreDataCrud.framework; path = SimpleCoreDataCrud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F2C4990147561F929110F0699E658B /* SimpleCoreDataCrud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleCoreDataCrud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CB7F8EA6D5FAE6FEB044CC6254A8B0 /* SimpleCoreDataCrud.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleCoreDataCrud.xcconfig; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		2FBD6143905C4937195E1C1DD4CF1CFD /* Pods-SimpleCoreDataCrud_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCoreDataCrud_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3088BC06CB4553C2334DC72B4BE5D163 /* Pods-SimpleCoreDataCrud_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleCoreDataCrud_Example-umbrella.h"; sourceTree = "<group>"; };
 		3153D418422129E3B4E511CDEFFC72E1 /* Pods-SimpleCoreDataCrud_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleCoreDataCrud_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3375DFBB9027A96E2DA56993EBA5F3F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35F7F2185C9553756E50B8EC81A76172 /* Pods-SimpleCoreDataCrud_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleCoreDataCrud_Tests.modulemap"; sourceTree = "<group>"; };
+		35F7F2185C9553756E50B8EC81A76172 /* Pods-SimpleCoreDataCrud_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleCoreDataCrud_Tests.modulemap"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3A594E2D36B716A03A6406AFB04C24EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		40F915BE17AD08C16BC5A3BA9C2ADBA5 /* SimpleCoreDataCrud.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleCoreDataCrud.modulemap; sourceTree = "<group>"; };
+		40F915BE17AD08C16BC5A3BA9C2ADBA5 /* SimpleCoreDataCrud.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleCoreDataCrud.modulemap; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		52D7A4FD5EA2AD44B9E5103E920E3086 /* SimpleCoreDataCrud-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleCoreDataCrud-umbrella.h"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5CCD935849DB2ACD033DE02CCC85CC34 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SimpleCoreDataCrud/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		6100373352CBF10F6ACA162F69B0334A /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6100373352CBF10F6ACA162F69B0334A /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		634886D04E439307AC55AB6D8D2E40C3 /* Pods-SimpleCoreDataCrud_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleCoreDataCrud_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		64191CD04C7EABA2E62FA5C8C6763B4D /* Pods_SimpleCoreDataCrud_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleCoreDataCrud_Tests.framework; path = "Pods-SimpleCoreDataCrud_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64191CD04C7EABA2E62FA5C8C6763B4D /* Pods_SimpleCoreDataCrud_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCoreDataCrud_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		8287D5E020013FAD00766DF3 /* EntityCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityCreationViewController.swift; sourceTree = "<group>"; };
+		8287D5E120013FAD00766DF3 /* EntityCreationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntityCreationViewController.xib; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		8A47EB8A1952214708D9965B0FBF440C /* Pods-SimpleCoreDataCrud_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleCoreDataCrud_Example.modulemap"; sourceTree = "<group>"; };
+		8A47EB8A1952214708D9965B0FBF440C /* Pods-SimpleCoreDataCrud_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleCoreDataCrud_Example.modulemap"; sourceTree = "<group>"; };
 		8F1DCF903921D832C7F38906789A567F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		961EC96394BF40924110EAC927AFF201 /* Pods-SimpleCoreDataCrud_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleCoreDataCrud_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A11265DC27ECDF970D30BF6F4AE6A609 /* Pods_SimpleCoreDataCrud_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleCoreDataCrud_Example.framework; path = "Pods-SimpleCoreDataCrud_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11265DC27ECDF970D30BF6F4AE6A609 /* Pods_SimpleCoreDataCrud_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCoreDataCrud_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14B892813C8B095A4186AC5ECF1844D /* Pods-SimpleCoreDataCrud_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleCoreDataCrud_Example-dummy.m"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -185,7 +186,6 @@
 				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -214,8 +214,9 @@
 		65AD675C28A4AEDB754ABDF038CAFBDF /* SimpleCoreDataCrud */ = {
 			isa = PBXGroup;
 			children = (
-				5CCD935849DB2ACD033DE02CCC85CC34 /* ReplaceMe.swift */,
 				29D2E9A47F9ECF9E349422BFFED1CD7C /* Support Files */,
+				8287D5E020013FAD00766DF3 /* EntityCreationViewController.swift */,
+				8287D5E120013FAD00766DF3 /* EntityCreationViewController.xib */,
 			);
 			name = SimpleCoreDataCrud;
 			path = ../..;
@@ -494,7 +495,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A05412185297C28D3D11FAE487D3E524 /* ReplaceMe.swift in Sources */,
 				AD962179F55944E818458B5BD5B07C34 /* SimpleCoreDataCrud-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8287D5E220013FAD00766DF3 /* EntityCreationViewController.swift in Sources */,
 				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
 				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
